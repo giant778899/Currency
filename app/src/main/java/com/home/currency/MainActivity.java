@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             float result = Float.parseFloat(ntd.getText().toString()) / 30.9f;
             new AlertDialog.Builder(this)
                     .setTitle(R.string.result)
-                    .setMessage("" + getString(R.string.usd_is) + result)
+                    .setMessage(getString(R.string.usd_is) + result)
                     .setPositiveButton(R.string.ok, null)
                     .show();
         }
